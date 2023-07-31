@@ -19,7 +19,7 @@ jobs:
       - name: Set up Node.js version
         uses: actions/setup-node@v1
         with:
-          node-version: '18.x'
+          node-version: '18.x'  # Specify Node.js version 18.x for the build environment
 
       - name: npm install, build, and test
         run: |
